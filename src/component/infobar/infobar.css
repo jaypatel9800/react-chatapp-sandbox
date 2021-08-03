@@ -1,0 +1,41 @@
+.infobar {
+  min-height: 50px;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(45, 45, 47, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fbfbfd;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 10px 10px 0 0;
+}
+
+.infobar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infobar > div > img {
+  margin: 0 10px;
+  box-shadow: 0 1px 5px 1px #69f0a6;
+}
+
+.closeBtn {
+  transition: all ease 0.4s;
+}
+.closeBtn:hover {
+  color: #c3c3c5;
+}
+.closeBtn:active {
+  color: #a3a3a5;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fbfbfd;
+}
+.group{
+    width: 100%;
+    bottom:0;
+    position: fixed;
+    z-index: -1;
+}
